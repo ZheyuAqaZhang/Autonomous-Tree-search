@@ -1,0 +1,18 @@
+Step 1
+scenario 1, [0 / 6, 0 / 25]-> (fill the second) [0 / 6, 25 / 25]
+scenario 2, [0 / 6, 0 / 25]-> (fill the first) [6 / 6, 0 / 25]
+
+Step 2
+scenario 1.1, [0 / 6, 0 / 25]->[0 / 6, 25 / 25]-> (pour the second to the first, it will halt by the full recipient) [6 / 6, 19 / 25]
+scenario 2.1, [0 / 6, 0 / 25]->[6 / 6, 0 / 25]-> (pour the first to the second, it will halt by the empty source) [0 / 6, 6 / 25]
+
+Step 3
+scenario 1.1.1, [0 / 6, 0 / 25]->[0 / 6, 25 / 25]->[6 / 6, 19 / 25] -> (empty the first) [0 / 6, 19 / 25]
+scenario 2.1.1, [0 / 6, 0 / 25]->[6 / 6, 0 / 25]->[0 / 6, 6 / 25] -> (fill the first) [6 / 6, 6 / 25]
+
+Step 4
+scenario 1.1.1.1, [0 / 6, 0 / 25]->[0 / 6, 25 / 25]->[6 / 6, 19 / 25]->[0 / 6, 19 / 25] -> (pour the second to the first) [6 / 6, 13 / 25]
+scenario 2.1.1.1, [0 / 6, 0 / 25]->[6 / 6, 0 / 25]->[0 / 6, 6 / 25]->[6 / 6, 6 / 25] -> (pour the first to the second) [0 / 6, 12 / 25] (Solution!)
+
+Summary:
+[0 / 6, 0 / 25] -> [6 / 6, 0 / 25] -> [0 / 6, 6 / 25] -> [6 / 6, 6 / 25] -> [0 / 6, 12 / 25]

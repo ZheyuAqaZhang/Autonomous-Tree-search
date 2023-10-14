@@ -1,0 +1,25 @@
+Step 1
+[1]-> (op1) [2]
+
+Step 2
+[1]->[2]-> (op1) [4]
+
+Step 3
+[1]->[2]->[4]-> (op1) [8]
+
+This is not the goal. Let's step back. Now it is [4].
+
+Step 3 (revised)
+[1]->[2]->[4]-> (op2) [5]
+
+This is not the goal. Let's step back. Now it is [4].
+
+Let's step back. Now it is [2].
+
+Step 2 (revised)
+[1]->[2]-> (op2) [3]
+
+Step 3 (revised)
+[1]->[2]->[3]-> (op1) [6]
+
+Summary: 1 -> 2 -> 3 -> 6

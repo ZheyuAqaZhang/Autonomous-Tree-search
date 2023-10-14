@@ -1,0 +1,7 @@
+Solve the 24-point puzzle. You are given three numbers: 7, 8 and 9. Perform two steps as follows:
+Choose two numbers and use one of the four arithmetic operations to replace the two numbers with the result you get.
+The final claim should be 24.
+
+Please solve this problem step by step.
+Remember you need to have a summary in the last line of your reply: [a1, a2, a3] -> (operation) -> [b1, b2] -> (operation) -> [c1]
+For example, [2, 3, 6] get 24, your last line may be: [2, 3, 6] -> (2 + 6 = 8) -> [3, 8] -> (3 * 8 = 24) -> [24]

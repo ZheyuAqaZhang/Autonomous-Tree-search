@@ -1,0 +1,49 @@
+Step 1
+[0 / 11, 0 / 25] -> (fill the first) [11 / 11, 0 / 25]
+
+Step 2
+[11 / 11, 0 / 25] -> (pour the first to the second) [0 / 11, 11 / 25]
+
+Step 3
+[0 / 11, 11 / 25] -> (fill the first) [11 / 11, 11 / 25]
+
+Step 4
+[11 / 11, 11 / 25] -> (pour the first to the second) [0 / 11, 22 / 25]
+
+This is not the goal. Let's step back. Now it is [11 / 11, 11 / 25].
+
+Step 4 (revised)
+[11 / 11, 11 / 25] -> (empty the second) [11 / 11, 0 / 25]
+
+This is not the goal. Let's step back. Now it is [0 / 11, 11 / 25].
+
+Let's step back. Now it is [11 / 11, 0 / 25].
+
+Step 2 (revised)
+[11 / 11, 0 / 25] -> (pour the first to the second) [0 / 11, 11 / 25]
+
+Step 3 (revised)
+[0 / 11, 11 / 25] -> (fill the first) [11 / 11, 11 / 25]
+
+Step 4 (revised)
+[11 / 11, 11 / 25] -> (pour the first to the second) [0 / 11, 22 / 25]
+
+This is not the goal. Let's step back. Now it is [11 / 11, 11 / 25].
+
+Let's step back. Now it is [0 / 11, 11 / 25].
+
+Let's step back. Now it is [11 / 11, 0 / 25].
+
+Step 1 (revised)
+[0 / 11, 0 / 25] -> (fill the second) [0 / 11, 25 / 25]
+
+Step 2 (revised)
+[0 / 11, 25 / 25] -> (pour the second to the first) [11 / 11, 14 / 25]
+
+Step 3 (revised)
+[11 / 11, 14 / 25] -> (empty the first) [0 / 11, 14 / 25]
+
+Step 4 (revised)
+[0 / 11, 14 / 25] -> (pour the second to the first) [11 / 11, 3 / 25]
+
+Summary: [0 / 11, 0 / 25] -> [0 / 11, 25 / 25] -> [11 / 11, 14 / 25] -> [0 / 11, 14 / 25] -> [11 / 11, 3 / 25]

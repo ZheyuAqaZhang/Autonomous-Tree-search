@@ -1,0 +1,53 @@
+Step 1
+[X=0,Y=0]-> (9=1*9) [X=1,Y=9]
+
+Step 2
+[X=0,Y=0]->[X=1,Y=9]-> (15=1*15) [X=2,Y=24]
+
+Step 3
+[X=0,Y=0]->[X=1,Y=9]->[X=2,Y=24]-> (15=1*15) [X=3,Y=39]
+
+This is not the goal. Let's step back. Now it is [X=2,Y=24].
+
+Step 3 (revised)
+[X=0,Y=0]->[X=1,Y=9]->[X=2,Y=24]-> (15=3*5) [X=5,Y=29]
+
+This is not the goal. Let's step back. Now it is [X=2,Y=24].
+
+Let's step back. Now it is [X=1,Y=9].
+
+Step 2 (revised)
+[X=0,Y=0]->[X=1,Y=9]-> (15=3*5) [X=4,Y=14]
+
+Step 3 (revised)
+[X=0,Y=0]->[X=1,Y=9]->[X=4,Y=14]-> (15=1*15) [X=5,Y=29]
+
+This is not the goal. Let's step back. Now it is [X=4,Y=14].
+
+Step 3 (revised)
+[X=0,Y=0]->[X=1,Y=9]->[X=4,Y=14]-> (15=3*5) [X=7,Y=19]
+
+This is not the goal. Let's step back. Now it is [X=4,Y=14].
+
+Let's step back. Now it is [X=1,Y=9].
+
+Let's step back. Now it is [X=0,Y=0].
+
+Step 1 (revised)
+[X=0,Y=0]-> (9=3*3) [X=3,Y=3]
+
+Step 2 (revised)
+[X=0,Y=0]->[X=3,Y=3]-> (15=3*5) [X=6,Y=8]
+
+Step 3 (revised)
+[X=0,Y=0]->[X=3,Y=3]->[X=6,Y=8]-> (15=1*15) [X=7,Y=23]
+
+This is not the goal. Let's step back. Now it is [X=6,Y=8].
+
+Step 3 (revised)
+[X=0,Y=0]->[X=3,Y=3]->[X=6,Y=8]-> (15=3*5) [X=9,Y=13]
+
+Finally, we perform the operation to calculate X*Y:
+[X=9,Y=13] -> 117
+
+Summary: ans=117.

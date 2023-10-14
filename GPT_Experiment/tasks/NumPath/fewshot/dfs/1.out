@@ -1,0 +1,85 @@
+Let's start with the number 10 and apply the operations to reach 81 in 4 steps.
+
+Step 1
+10 -> (op1) 20
+
+Step 2
+10 -> 20 -> (op2) 21
+
+Step 3
+10 -> 20 -> 21 -> (op1) 42
+
+Step 4
+10 -> 20 -> 21 -> 42 -> (op2) 43
+
+This is not the goal. Let's step back. Now it is 42.
+
+Step 4 (revised)
+10 -> 20 -> 21 -> 42 -> (op1) 84
+
+This is not the goal and it's more than 81. Let's step back. Now it is 42.
+
+Let's step back. Now it is 21.
+
+Step 3 (revised)
+10 -> 20 -> 21 -> (op2) 22
+
+Step 4 (revised)
+10 -> 20 -> 21 -> 22 -> (op1) 44
+
+This is not the goal and it's more than 81. Let's step back. Now it is 22.
+
+Let's step back. Now it is 21.
+
+Let's step back. Now it is 20.
+
+Step 2 (revised)
+10 -> 20 -> (op1) 40
+
+Step 3 (revised)
+10 -> 20 -> 40 -> (op2) 41
+
+Step 4 (revised)
+10 -> 20 -> 40 -> 41 -> (op1) 82
+
+This is not the goal and it's more than 81. Let's step back. Now it is 41.
+
+Step 4 (revised)
+10 -> 20 -> 40 -> 41 -> (op2) 42
+
+This is not the goal. Let's step back. Now it is 41.
+
+Let's step back. Now it is 40.
+
+Let's step back. Now it is 20.
+
+Step 2 (revised)
+10 -> 20 -> (op2) 21
+
+Step 3 (revised)
+10 -> 20 -> 21 -> (op1) 42
+
+Step 4 (revised)
+10 -> 20 -> 21 -> 42 -> (op1) 84
+
+This is not the goal and it's more than 81. Let's step back. Now it is 42.
+
+Step 4 (revised)
+10 -> 20 -> 21 -> 42 -> (op2) 43
+
+This is not the goal. Let's step back. Now it is 42.
+
+Let's step back. Now it is 21.
+
+Let's step back. Now it is 20.
+
+Step 2 (revised)
+10 -> 20 -> (op1) 40
+
+Step 3 (revised)
+10 -> 20 -> 40 -> (op1) 80
+
+Step 4 (revised)
+10 -> 20 -> 40 -> 80 -> (op2) 81
+
+Finally, we have reached the goal. The sequence of operations is: 10 -> 20 -> 40 -> 80 -> 81.

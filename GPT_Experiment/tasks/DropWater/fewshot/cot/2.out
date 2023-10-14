@@ -1,0 +1,14 @@
+Step 1
+[0 / 11, 0 / 25] -> (fill the second) [0 / 11, 25 / 25]
+
+Step 2
+[0 / 11, 25 / 25] -> (pour the second to the first) [11 / 11, 14 / 25]
+
+Step 3
+[11 / 11, 14 / 25] -> (empty the first) [0 / 11, 14 / 25]
+
+Step 4
+[0 / 11, 14 / 25] -> (pour the second to the first) [11 / 11, 3 / 25]
+
+Summary:
+[0 / 11, 0 / 25] -> [0 / 11, 25 / 25] -> [11 / 11, 14 / 25] -> [0 / 11, 14 / 25] -> [11 / 11, 3 / 25]

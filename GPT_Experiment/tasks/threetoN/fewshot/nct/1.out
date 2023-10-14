@@ -1,0 +1,25 @@
+Step 1
+scenario 1, [4, 7, 10]-> (4 + 7 = 11) [11, 10]
+scenario 2, [4, 7, 10]-> (4 + 10 = 14) [14, 7]
+scenario 3, [4, 7, 10]-> (7 + 10 = 17) [17, 4]
+
+Step 2
+scenario 1.1, [4, 7, 10]->[11, 10]-> (11 + 10 = 21) [21]
+scenario 1.2, [4, 7, 10]->[11, 10]-> (11 - 10 = 1) [1]
+scenario 2.1, [4, 7, 10]->[14, 7]-> (14 + 7 = 21) [21]
+scenario 2.2, [4, 7, 10]->[14, 7]-> (14 - 7 = 7) [7]
+scenario 3.1, [4, 7, 10]->[17, 4]-> (17 + 4 = 21) [21]
+scenario 3.2, [4, 7, 10]->[17, 4]-> (17 - 4 = 13) [13]
+
+From the above scenarios, we can see that scenario 2.2 and scenario 3.2 are the closest to the target number 18. However, none of the scenarios reach the target number 18. Therefore, we need to reconsider the operations in step 1.
+
+Step 1 (reconsidered)
+scenario 4, [4, 7, 10]-> (4 * 7 = 28) [28, 10]
+scenario 5, [4, 7, 10]-> (4 * 10 = 40) [40, 7]
+scenario 6, [4, 7, 10]-> (7 * 10 = 70) [70, 4]
+
+Step 2 (reconsidered)
+scenario 4.1, [4, 7, 10]->[28, 10]-> (28 - 10 = 18) [18] (Solution!)
+
+Summary:
+[4, 7, 10] -> (4 * 7 = 28) -> [28, 10] -> (28 - 10 = 18) -> [18]

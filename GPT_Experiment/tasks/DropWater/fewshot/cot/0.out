@@ -1,0 +1,8 @@
+Step 1
+[0 / 12, 0 / 18] -> (fill the second) [0 / 12, 18 / 18]
+
+Step 2
+[0 / 12, 18 / 18] -> (pour the second to the first) [12 / 12, 6 / 18]
+
+Summary:
+[0 / 12, 0 / 18] -> [0 / 12, 18 / 18] -> [12 / 12, 6 / 18]

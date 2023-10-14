@@ -1,0 +1,13 @@
+Step 1
+[0 / 7, 0 / 29] -> (fill the first) [7 / 7, 0 / 29]
+
+Step 2
+[7 / 7, 0 / 29] -> (pour the first to the second) [0 / 7, 7 / 29]
+
+Step 3
+[0 / 7, 7 / 29] -> (fill the first) [7 / 7, 7 / 29]
+
+Step 4
+[7 / 7, 7 / 29] -> (pour the first to the second) [0 / 7, 14 / 29]
+
+Summary: [0 / 7, 0 / 29] -> [7 / 7, 0 / 29] -> [0 / 7, 7 / 29] -> [7 / 7, 7 / 29] -> [0 / 7, 14 / 29] (14 is the goal)

@@ -1,0 +1,19 @@
+This problem can be solved by using the two operations (op1: doubling, op2: incrementing) in different sequences. Let's explore the possible scenarios:
+
+Step 1
+scenario 1, [1]-> (op1) [2]
+scenario 2, [1]-> (op2) [2]
+
+Step 2
+scenario 1.1, [1]->[2]-> (op1) [4]
+scenario 1.2, [1]->[2]-> (op2) [3]
+scenario 2.1, [1]->[2]-> (op1) [4]
+scenario 2.2, [1]->[2]-> (op2) [3]
+
+Step 3
+scenario 1.1.1, [1]->[2]->[4]-> (op1) [8]
+scenario 1.1.2, [1]->[2]->[4]-> (op2) [5]
+scenario 1.2.1, [1]->[2]->[3]-> (op1) [6] (Solution!)
+
+Summary:
+1 -> 2 -> 3 -> 6

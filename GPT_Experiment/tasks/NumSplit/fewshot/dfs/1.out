@@ -1,0 +1,47 @@
+Step 1
+[X=0, Y=0] -> (2=1*2) [X=1, Y=2]
+
+Step 2
+[X=0, Y=0]->[X=1, Y=2]-> (15=3*5) [X=4, Y=7]
+
+Step 3
+[X=0, Y=0]->[X=1, Y=2]->[X=4, Y=7]-> (4=1*4) [X=5, Y=11]
+
+This is not the goal. Let's step back. Now it is [X=4, Y=7].
+
+Step 3 (revised)
+[X=0, Y=0]->[X=1, Y=2]->[X=4, Y=7]-> (4=2*2) [X=6, Y=9]
+
+This is not the goal. Let's step back. Now it is [X=4, Y=7].
+
+Let's step back. Now it is [X=1, Y=2].
+
+Step 2 (revised)
+[X=0, Y=0]->[X=1, Y=2]-> (15=5*3) [X=6, Y=5]
+
+Step 3 (revised)
+[X=0, Y=0]->[X=1, Y=2]->[X=6, Y=5]-> (4=2*2) [X=8, Y=7]
+
+This is not the goal. Let's step back. Now it is [X=6, Y=5].
+
+Step 3 (revised)
+[X=0, Y=0]->[X=1, Y=2]->[X=6, Y=5]-> (4=1*4) [X=7, Y=9]
+
+This is not the goal. Let's step back. Now it is [X=6, Y=5].
+
+Let's step back. Now it is [X=1, Y=2].
+
+Let's step back. Now it is [X=0, Y=0].
+
+Step 1 (revised)
+[X=0, Y=0] -> (2=2*1) [X=2, Y=1]
+
+Step 2 (revised)
+[X=0, Y=0]->[X=2, Y=1]-> (15=5*3) [X=7, Y=4]
+
+Step 3 (revised)
+[X=0, Y=0]->[X=2, Y=1]->[X=7, Y=4]-> (4=2*2) [X=9, Y=6]
+
+Finally, we calculate X*Y: [X=9, Y=6] -> 54
+
+Summary: ans=54.

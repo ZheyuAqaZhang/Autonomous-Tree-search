@@ -1,0 +1,16 @@
+This game involves two empty bottles with capacities of 11 and 25 liters. The objective is to collect exactly 3 liters of water in either bottle within 4 steps, using a large water reservoir.
+
+Each step of the game offers you the choice to execute one of two actions:
+
+Opt for a bottle and proceed to fill it to its brim from the reservoir or conversely, empty it completely back into the reservoir. The following are some illustrative examples:
+[0 / 7, 7 / 22] -> (fill the first) [7 / 7, 7 / 22];
+[8 / 8, 11 / 19] -> (empty the first) [0 / 8, 11 / 19].
+
+Pour water from one bottle into the other. This action concludes once the recipient bottle is at its full capacity or the source bottle is entirely empty. Here are some practical examples:
+[0 / 7, 9 / 9] -> (pour the second to the first, it will halt by the full recipient) [7 / 7, 2 / 9];
+[5 / 5, 5 / 7] -> (pour the first to the second, it will halt by the full recipient) [3 / 5, 7 / 7];
+[12 / 12, 0 / 17] -> (pour the first to the second, it will halt by the empty source) [0 / 12, 12 / 17];
+
+Please solve this problem step by step.
+Remember you need to have a summary in the last line of your reply: [0 / X, 0 / Y] -> [x1 / X, y1 / Y] -> [x2 / X, y2 / Y] -> ... -> [xk / X, yk / Y] (one of xk and yk is 3, since the goal is 3)
+For example, 2 steps to get 3 using 6 and 9, the last line of your response may be: [0 / 6, 0 / 9] -> [0 / 6, 9 / 9] -> [6 / 6, 3 / 9]

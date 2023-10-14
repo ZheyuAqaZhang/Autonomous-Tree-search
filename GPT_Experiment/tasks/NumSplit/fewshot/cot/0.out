@@ -1,0 +1,11 @@
+Given input 12,10,7, the best scenario is:
+
+Step 1: [0,0] -> (12=1*12) [1,12]
+
+Step 2: [1,12] -> (10=1*10) [2,22]
+
+Step 3: [2,22] -> (7=1*7) [3,29]
+
+Finally, X*Y = 3*29 = 87
+
+So, the summary should be ans=87.

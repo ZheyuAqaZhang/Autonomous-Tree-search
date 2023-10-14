@@ -1,0 +1,22 @@
+Step 1
+[1, 1, 7] -> (1 + 1 = 2) [2, 7]
+
+Step 2
+[1, 1, 7] -> [2, 7] -> (2 + 7 = 9) [9]
+
+This is not the goal. Let's step back. Now it is [2, 7].
+
+Step 2 (revised)
+[1, 1, 7] -> [2, 7] -> (2 * 7 = 14) [14]
+
+This is not the goal. Let's step back. Now it is [2, 7].
+
+Let's step back. Now it is [1, 1, 7].
+
+Step 1 (revised)
+[1, 1, 7] -> (1 * 7 = 7) [7, 1]
+
+Step 2 (revised)
+[1, 1, 7] -> [7, 1] -> (7 + 1 = 8) [8]
+
+Summary: [1, 1, 7] -> (1 * 7 = 7) -> [7, 1] -> (7 + 1 = 8) -> [8]

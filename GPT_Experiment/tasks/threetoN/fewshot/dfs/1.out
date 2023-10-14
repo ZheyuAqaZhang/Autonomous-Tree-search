@@ -1,0 +1,240 @@
+Step 1
+[4, 7, 10] -> (4 + 10 = 14) [14, 7]
+
+Step 2
+[4, 7, 10] -> [14, 7] -> (14 + 7 = 21) [21]
+
+This is not the goal. Let's step back. Now it is [14, 7].
+
+Step 2 (revised)
+[4, 7, 10] -> [14, 7] -> (14 - 7 = 7) [7]
+
+This is not the goal. Let's step back. Now it is [14, 7].
+
+Step 2 (revised)
+[4, 7, 10] -> [14, 7] -> (14 * 7 = 98) [98]
+
+This is not the goal. Let's step back. Now it is [14, 7].
+
+Step 2 (revised)
+[4, 7, 10] -> [14, 7] -> (14 / 7 = 2) [2]
+
+This is not the goal. Let's step back. Now it is [14, 7].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (4 * 10 = 40) [40, 7]
+
+Step 2
+[4, 7, 10] -> [40, 7] -> (40 - 7 = 33) [33]
+
+This is not the goal. Let's step back. Now it is [40, 7].
+
+Step 2 (revised)
+[4, 7, 10] -> [40, 7] -> (40 / 7 = 5.71) [5.71]
+
+This is not the goal. Let's step back. Now it is [40, 7].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (7 - 4 = 3) [3, 10]
+
+Step 2
+[4, 7, 10] -> [3, 10] -> (3 * 10 = 30) [30]
+
+This is not the goal. Let's step back. Now it is [3, 10].
+
+Step 2 (revised)
+[4, 7, 10] -> [3, 10] -> (10 - 3 = 7) [7]
+
+This is not the goal. Let's step back. Now it is [3, 10].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (10 - 4 = 6) [6, 7]
+
+Step 2
+[4, 7, 10] -> [6, 7] -> (6 * 7 = 42) [42]
+
+This is not the goal. Let's step back. Now it is [6, 7].
+
+Step 2 (revised)
+[4, 7, 10] -> [6, 7] -> (7 - 6 = 1) [1]
+
+This is not the goal. Let's step back. Now it is [6, 7].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (7 + 4 = 11) [11, 10]
+
+Step 2
+[4, 7, 10] -> [11, 10] -> (11 + 10 = 21) [21]
+
+This is not the goal. Let's step back. Now it is [11, 10].
+
+Step 2 (revised)
+[4, 7, 10] -> [11, 10] -> (11 - 10 = 1) [1]
+
+This is not the goal. Let's step back. Now it is [11, 10].
+
+Step 2 (revised)
+[4, 7, 10] -> [11, 10] -> (11 * 10 = 110) [110]
+
+This is not the goal. Let's step back. Now it is [11, 10].
+
+Step 2 (revised)
+[4, 7, 10] -> [11, 10] -> (11 / 10 = 1.1) [1.1]
+
+This is not the goal. Let's step back. Now it is [11, 10].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (10 - 7 = 3) [3, 4]
+
+Step 2
+[4, 7, 10] -> [3, 4] -> (3 * 4 = 12) [12]
+
+This is not the goal. Let's step back. Now it is [3, 4].
+
+Step 2 (revised)
+[4, 7, 10] -> [3, 4] -> (4 - 3 = 1) [1]
+
+This is not the goal. Let's step back. Now it is [3, 4].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (10 + 7 = 17) [17, 4]
+
+Step 2
+[4, 7, 10] -> [17, 4] -> (17 + 4 = 21) [21]
+
+This is not the goal. Let's step back. Now it is [17, 4].
+
+Step 2 (revised)
+[4, 7, 10] -> [17, 4] -> (17 - 4 = 13) [13]
+
+This is not the goal. Let's step back. Now it is [17, 4].
+
+Step 2 (revised)
+[4, 7, 10] -> [17, 4] -> (17 * 4 = 68) [68]
+
+This is not the goal. Let's step back. Now it is [17, 4].
+
+Step 2 (revised)
+[4, 7, 10] -> [17, 4] -> (17 / 4 = 4.25) [4.25]
+
+This is not the goal. Let's step back. Now it is [17, 4].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (10 * 7 = 70) [70, 4]
+
+Step 2
+[4, 7, 10] -> [70, 4] -> (70 - 4 = 66) [66]
+
+This is not the goal. Let's step back. Now it is [70, 4].
+
+Step 2 (revised)
+[4, 7, 10] -> [70, 4] -> (70 / 4 = 17.5) [17.5]
+
+This is not the goal. Let's step back. Now it is [70, 4].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (4 + 7 = 11) [11, 10]
+
+Step 2
+[4, 7, 10] -> [11, 10] -> (11 + 10 = 21) [21]
+
+This is not the goal. Let's step back. Now it is [11, 10].
+
+Step 2 (revised)
+[4, 7, 10] -> [11, 10] -> (11 - 10 = 1) [1]
+
+This is not the goal. Let's step back. Now it is [11, 10].
+
+Step 2 (revised)
+[4, 7, 10] -> [11, 10] -> (11 * 10 = 110) [110]
+
+This is not the goal. Let's step back. Now it is [11, 10].
+
+Step 2 (revised)
+[4, 7, 10] -> [11, 10] -> (11 / 10 = 1.1) [1.1]
+
+This is not the goal. Let's step back. Now it is [11, 10].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (7 + 10 = 17) [17, 4]
+
+Step 2
+[4, 7, 10] -> [17, 4] -> (17 + 4 = 21) [21]
+
+This is not the goal. Let's step back. Now it is [17, 4].
+
+Step 2 (revised)
+[4, 7, 10] -> [17, 4] -> (17 - 4 = 13) [13]
+
+This is not the goal. Let's step back. Now it is [17, 4].
+
+Step 2 (revised)
+[4, 7, 10] -> [17, 4] -> (17 * 4 = 68) [68]
+
+This is not the goal. Let's step back. Now it is [17, 4].
+
+Step 2 (revised)
+[4, 7, 10] -> [17, 4] -> (17 / 4 = 4.25) [4.25]
+
+This is not the goal. Let's step back. Now it is [17, 4].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (7 * 10 = 70) [70, 4]
+
+Step 2
+[4, 7, 10] -> [70, 4] -> (70 - 4 = 66) [66]
+
+This is not the goal. Let's step back. Now it is [70, 4].
+
+Step 2 (revised)
+[4, 7, 10] -> [70, 4] -> (70 / 4 = 17.5) [17.5]
+
+This is not the goal. Let's step back. Now it is [70, 4].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (7 - 10 = -3) [-3, 4]
+
+Step 2
+[4, 7, 10] -> [-3, 4] -> (-3 + 4 = 1) [1]
+
+This is not the goal. Let's step back. Now it is [-3, 4].
+
+Step 2 (revised)
+[4, 7, 10] -> [-3, 4] -> (-3 * 4 = -12) [-12]
+
+This is not the goal. Let's step back. Now it is [-3, 4].
+
+Let's step back. Now it is [4, 7, 10].
+
+Step 1 (revised)
+[4, 7, 10] -> (7 * 4 = 28) [28, 10]
+
+Step 2
+[4, 7, 10] -> [28, 10] -> (28 - 10 = 18) [18]
+
+This is the goal. We have reached the final state.
+
+Summary:
+[4, 7, 10] -> (7 * 4 = 28) -> [28, 10] -> (28 - 10 = 18) -> [18]

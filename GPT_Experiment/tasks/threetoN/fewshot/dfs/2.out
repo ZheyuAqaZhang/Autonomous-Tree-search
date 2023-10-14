@@ -1,0 +1,14 @@
+Step 1
+[8, 9, 9]-> (9 - 9 = 0) [8, 0]
+
+Step 2
+[8, 0]->[8, 0]-> (8 * 0 = 0) [0]
+
+This is not the goal. Let's step back. Now it is [8, 0].
+
+Step 2 (revised)
+[8, 0]->[8, 0]-> (8 + 0 = 8) [8]
+
+This is the goal.
+
+Summary: [8, 9, 9] -> (9 - 9 = 0) -> [8, 0] -> (8 + 0 = 8) -> [8]

@@ -1,0 +1,8 @@
+Picture a set of numbers ranging from 1 to 100. Let's discuss two mathematical operations:
+op1: Converts a number 'x' to '2x' (doubling).
+op2: Converts 'x' to 'x + 1' (incrementing).
+Your task is to generate a sequence of exactly 4 conversions (whether more or less, is not permissible), beginning from 19 and ending at 84.
+
+Please solve this problem step by step.
+Remember you need to have a summary in the last line of your reply: [number] -> [number] -> [number] -> ... -> [number] (the first number should be 19, the last number should be 84, and the number of arrows should be 4)
+For example, convert 1 to 10 with 4 steps, your last line may be: 1 -> 2 -> 4 -> 5 -> 10

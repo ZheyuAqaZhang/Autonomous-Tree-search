@@ -1,0 +1,22 @@
+Step 1
+[0 / 12, 0 / 18] -> (fill the first) [12 / 12, 0 / 18]
+
+Step 2
+[12 / 12, 0 / 18] -> (pour the first to the second) [0 / 12, 12 / 18]
+
+This is not the goal. Let's step back. Now it is [12 / 12, 0 / 18].
+
+Step 2 (revised)
+[12 / 12, 0 / 18] -> (empty the first) [0 / 12, 0 / 18]
+
+This is not the goal. Let's step back. Now it is [12 / 12, 0 / 18].
+
+Let's step back. Now it is [0 / 12, 0 / 18].
+
+Step 1 (revised)
+[0 / 12, 0 / 18] -> (fill the second) [0 / 12, 18 / 18]
+
+Step 2 (revised)
+[0 / 12, 18 / 18] -> (pour the second to the first) [12 / 12, 6 / 18]
+
+Summary: [0 / 12, 0 / 18] -> [0 / 12, 18 / 18] -> [12 / 12, 6 / 18]

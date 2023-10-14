@@ -1,0 +1,126 @@
+Step 1
+[X=0,Y=0]-> (9=1*9) [X=1,Y=9]
+
+Step 2
+[X=0,Y=0]->[X=1,Y=9]-> (8=1*8) [X=2,Y=17]
+
+Step 3
+[X=0,Y=0]->[X=1,Y=9]->[X=2,Y=17]-> (14=1*14) [X=3,Y=31]
+
+Let's calculate X*Y: [X=3,Y=31] -> 93
+
+This is not the goal. Let's step back. Now it is [X=2,Y=17].
+
+Step 3 (revised)
+[X=0,Y=0]->[X=1,Y=9]->[X=2,Y=17]-> (14=2*7) [X=4,Y=24]
+
+Let's calculate X*Y: [X=4,Y=24] -> 96
+
+This is not the goal. Let's step back. Now it is [X=2,Y=17].
+
+Let's step back. Now it is [X=1,Y=9].
+
+Step 2 (revised)
+[X=0,Y=0]->[X=1,Y=9]-> (8=2*4) [X=3,Y=13]
+
+Step 3 (revised)
+[X=0,Y=0]->[X=1,Y=9]->[X=3,Y=13]-> (14=2*7) [X=5,Y=20]
+
+Let's calculate X*Y: [X=5,Y=20] -> 100
+
+This is not the goal. Let's step back. Now it is [X=3,Y=13].
+
+Step 3 (revised)
+[X=0,Y=0]->[X=1,Y=9]->[X=3,Y=13]-> (14=1*14) [X=4,Y=27]
+
+Let's calculate X*Y: [X=4,Y=27] -> 108
+
+This is not the goal. Let's step back. Now it is [X=3,Y=13].
+
+Let's step back. Now it is [X=1,Y=9].
+
+Let's step back. Now it is [X=0,Y=0].
+
+Step 1 (revised)
+[X=0,Y=0]-> (9=3*3) [X=3,Y=3]
+
+Step 2 (revised)
+[X=0,Y=0]->[X=3,Y=3]-> (8=2*4) [X=5,Y=7]
+
+Step 3 (revised)
+[X=0,Y=0]->[X=3,Y=3]->[X=5,Y=7]-> (14=2*7) [X=7,Y=14]
+
+Let's calculate X*Y: [X=7,Y=14] -> 98
+
+This is not the goal. Let's step back. Now it is [X=5,Y=7].
+
+Step 3 (revised)
+[X=0,Y=0]->[X=3,Y=3]->[X=5,Y=7]-> (14=1*14) [X=6,Y=21]
+
+Let's calculate X*Y: [X=6,Y=21] -> 126
+
+This is not the goal. Let's step back. Now it is [X=5,Y=7].
+
+Let's step back. Now it is [X=3,Y=3].
+
+Step 2 (revised)
+[X=0,Y=0]->[X=3,Y=3]-> (8=1*8) [X=4,Y=11]
+
+Step 3 (revised)
+[X=0,Y=0]->[X=3,Y=3]->[X=4,Y=11]-> (14=2*7) [X=6,Y=18]
+
+Let's calculate X*Y: [X=6,Y=18] -> 108
+
+This is not the goal. Let's step back. Now it is [X=4,Y=11].
+
+Step 3 (revised)
+[X=0,Y=0]->[X=3,Y=3]->[X=4,Y=11]-> (14=1*14) [X=5,Y=25]
+
+Let's calculate X*Y: [X=5,Y=25] -> 125
+
+This is not the goal. Let's step back. Now it is [X=4,Y=11].
+
+Let's step back. Now it is [X=3,Y=3].
+
+Let's step back. Now it is [X=0,Y=0].
+
+Step 1 (revised)
+[X=0,Y=0]-> (9=1*9) [X=1,Y=9]
+
+Step 2 (revised)
+[X=0,Y=0]->[X=1,Y=9]-> (8=2*4) [X=3,Y=13]
+
+Step 3 (revised)
+[X=0,Y=0]->[X=1,Y=9]->[X=3,Y=13]-> (14=2*7) [X=5,Y=20]
+
+Let's calculate X*Y: [X=5,Y=20] -> 100
+
+This is not the goal. Let's step back. Now it is [X=3,Y=13].
+
+Step 3 (revised)
+[X=0,Y=0]->[X=1,Y=9]->[X=3,Y=13]-> (14=1*14) [X=4,Y=27]
+
+Let's calculate X*Y: [X=4,Y=27] -> 108
+
+This is not the goal. Let's step back. Now it is [X=3,Y=13].
+
+Let's step back. Now it is [X=1,Y=9].
+
+Step 2 (revised)
+[X=0,Y=0]->[X=1,Y=9]-> (8=1*8) [X=2,Y=17]
+
+Step 3 (revised)
+[X=0,Y=0]->[X=1,Y=9]->[X=2,Y=17]-> (14=2*7) [X=4,Y=24]
+
+Let's calculate X*Y: [X=4,Y=24] -> 96
+
+This is not the goal. Let's step back. Now it is [X=2,Y=17].
+
+Step 3 (revised)
+[X=0,Y=0]->[X=1,Y=9]->[X=2,Y=17]-> (14=1*14) [X=3,Y=31]
+
+Let's calculate X*Y: [X=3,Y=31] -> 93
+
+This is the goal. The minimum X*Y is 93.
+
+Summary: ans=93.

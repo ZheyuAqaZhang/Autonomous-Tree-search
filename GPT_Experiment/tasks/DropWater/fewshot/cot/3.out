@@ -1,0 +1,14 @@
+Step 1
+[0 / 6, 0 / 25] -> (fill the first) [6 / 6, 0 / 25]
+
+Step 2
+[6 / 6, 0 / 25] -> (pour the first to the second, it will halt by the empty source) [0 / 6, 6 / 25]
+
+Step 3
+[0 / 6, 6 / 25] -> (fill the first) [6 / 6, 6 / 25]
+
+Step 4
+[6 / 6, 6 / 25] -> (pour the first to the second) [0 / 6, 12 / 25]
+
+Summary:
+[0 / 6, 0 / 25] -> [6 / 6, 0 / 25] -> [0 / 6, 6 / 25] -> [6 / 6, 6 / 25] -> [0 / 6, 12 / 25]

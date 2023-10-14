@@ -1,0 +1,115 @@
+Let's start with the number 9 and perform the operations step by step.
+
+Step 1
+[9]-> (op1) [18]
+
+Step 2
+[9]->[18]-> (op2) [19]
+
+Step 3
+[9]->[18]->[19]-> (op1) [38]
+
+Step 4
+[9]->[18]->[19]->[38]-> (op1) [76]
+
+This is not the goal. Let's step back. Now it is [38].
+
+Step 4 (revised)
+[9]->[18]->[19]->[38]-> (op2) [39]
+
+This is not the goal. Let's step back. Now it is [38].
+
+Let's step back. Now it is [19].
+
+Step 3 (revised)
+[9]->[18]->[19]-> (op1) [38]
+
+Let's step back. Now it is [19].
+
+Step 3 (revised)
+[9]->[18]->[19]-> (op2) [20]
+
+Step 4 (revised)
+[9]->[18]->[19]->[20]-> (op1) [40]
+
+This is not the goal. Let's step back. Now it is [20].
+
+Step 4 (revised)
+[9]->[18]->[19]->[20]-> (op2) [21]
+
+This is not the goal. Let's step back. Now it is [20].
+
+Let's step back. Now it is [19].
+
+Let's step back. Now it is [18].
+
+Step 2 (revised)
+[9]->[18]-> (op1) [36]
+
+Step 3 (revised)
+[9]->[18]->[36]-> (op2) [37]
+
+Step 4 (revised)
+[9]->[18]->[36]->[37]-> (op1) [74]
+
+This is not the goal. Let's step back. Now it is [37].
+
+Step 4 (revised)
+[9]->[18]->[36]->[37]-> (op2) [38]
+
+This is not the goal. Let's step back. Now it is [37].
+
+Let's step back. Now it is [36].
+
+Step 3 (revised)
+[9]->[18]->[36]-> (op1) [72]
+
+Step 4 (revised)
+[9]->[18]->[36]->[72]-> (op2) [73]
+
+This is not the goal. Let's step back. Now it is [72].
+
+Step 4 (revised)
+[9]->[18]->[36]->[72]-> (op1) [144]
+
+This is not the goal. Let's step back. Now it is [72].
+
+Let's step back. Now it is [36].
+
+Let's step back. Now it is [18].
+
+Step 2 (revised)
+[9]->[18]-> (op2) [19]
+
+Step 3 (revised)
+[9]->[18]->[19]-> (op1) [38]
+
+Step 4 (revised)
+[9]->[18]->[19]->[38]-> (op2) [39]
+
+This is not the goal. Let's step back. Now it is [38].
+
+Step 4 (revised)
+[9]->[18]->[19]->[38]-> (op1) [76]
+
+This is not the goal. Let's step back. Now it is [38].
+
+Let's step back. Now it is [19].
+
+Let's step back. Now it is [18].
+
+Let's step back. Now it is [9].
+
+Step 1 (revised)
+[9]-> (op2) [10]
+
+Step 2 (revised)
+[9]->[10]-> (op1) [20]
+
+Step 3 (revised)
+[9]->[10]->[20]-> (op1) [40]
+
+Step 4 (revised)
+[9]->[10]->[20]->[40]-> (op1) [80]
+
+Summary: 9 -> 10 -> 20 -> 40 -> 80

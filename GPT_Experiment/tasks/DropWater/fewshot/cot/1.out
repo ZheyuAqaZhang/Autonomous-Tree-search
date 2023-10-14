@@ -1,0 +1,14 @@
+Step 1
+[0 / 9, 0 / 16] -> (fill the first) [9 / 9, 0 / 16]
+
+Step 2
+[9 / 9, 0 / 16] -> (pour the first to the second) [0 / 9, 9 / 16]
+
+Step 3
+[0 / 9, 9 / 16] -> (fill the first) [9 / 9, 9 / 16]
+
+Step 4
+[9 / 9, 9 / 16] -> (pour the first to the second) [2 / 9, 16 / 16]
+
+Summary:
+[0 / 9, 0 / 16] -> [9 / 9, 0 / 16] -> [0 / 9, 9 / 16] -> [9 / 9, 9 / 16] -> [2 / 9, 16 / 16]

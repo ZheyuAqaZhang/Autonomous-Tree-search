@@ -1,0 +1,48 @@
+Step 1
+[X=0, Y=0] -> (7=1*7) [X=1, Y=7]
+
+Step 2
+[X=0, Y=0]->[X=1, Y=7]-> (2=1*2) [X=2, Y=9]
+
+Step 3
+[X=0, Y=0]->[X=1, Y=7]->[X=2, Y=9]-> (5=1*5) [X=3, Y=14]
+
+This is not the goal. Let's step back. Now it is [X=2, Y=9].
+
+Step 3 (revised)
+[X=0, Y=0]->[X=1, Y=7]->[X=2, Y=9]-> (5=5*1) [X=7, Y=10]
+
+This is not the goal. Let's step back. Now it is [X=2, Y=9].
+
+Let's step back. Now it is [X=1, Y=7].
+
+Step 2 (revised)
+[X=0, Y=0]->[X=1, Y=7]-> (2=2*1) [X=3, Y=8]
+
+Step 3 (revised)
+[X=0, Y=0]->[X=1, Y=7]->[X=3, Y=8]-> (5=1*5) [X=4, Y=13]
+
+This is not the goal. Let's step back. Now it is [X=3, Y=8].
+
+Step 3 (revised)
+[X=0, Y=0]->[X=1, Y=7]->[X=3, Y=8]-> (5=5*1) [X=8, Y=9]
+
+This is not the goal. Let's step back. Now it is [X=3, Y=8].
+
+Let's step back. Now it is [X=1, Y=7].
+
+Let's step back. Now it is [X=0, Y=0].
+
+Step 1 (revised)
+[X=0, Y=0] -> (7=7*1) [X=7, Y=1]
+
+Step 2 (revised)
+[X=0, Y=0]->[X=7, Y=1]-> (2=2*1) [X=9, Y=2]
+
+Step 3 (revised)
+[X=0, Y=0]->[X=7, Y=1]->[X=9, Y=2]-> (5=5*1) [X=14, Y=3]
+
+Finally, we calculate X*Y:
+[X=14, Y=3] -> 42
+
+Summary: ans=42.

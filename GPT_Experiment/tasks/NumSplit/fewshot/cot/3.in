@@ -1,0 +1,15 @@
+You are given three numbers: 6, 3, 14, and initially there are two variables X=0 and Y=0. You should write each number as a product x*y, then add x to X and add y to Y. Finally, your goal is to minimize X*Y.
+        
+To tackle this problem, you should consider the three numbers one by one (consider the i-th number in the i-th step). In each step, you can choose how to write the number as a product x*y. We use [X,Y] to represent a current state, and you can update the state after knowing x and y. For example, if this number is 12, then the following options are some illustrative examples for this step:
+[5,7] -> (12=4*3) [9,10]
+[8,4] -> (12=2*6) [10,10]
+[2,5] -> (12=6*2) [8,7]
+
+Finally, after considering all the numbers, you must perform another operation to calculate X*Y. For example:
+[9,10] -> 90
+[8,7] -> 56
+
+The goal is to minimize X*Y in the end. Please solve this problem step by step. Remember you need to have a summary in the last line of your reply: ans=x, where x represents the final answer.
+
+For example:
+Given input 1,6,2, the best scenario is [0,0] -> (1=1*1) [1,1] -> (6=2*3) [3,4] -> (2=1*2) [4,6] -> 24. Your summary should be ans=24.

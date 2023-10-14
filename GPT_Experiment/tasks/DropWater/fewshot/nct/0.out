@@ -1,0 +1,10 @@
+Step 1
+scenario 1, [0 / 12, 0 / 18] -> (fill the first) [12 / 12, 0 / 18]
+scenario 2, [0 / 12, 0 / 18] -> (fill the second) [0 / 12, 18 / 18]
+
+Step 2
+scenario 1.1, [0 / 12, 0 / 18] -> [12 / 12, 0 / 18] -> (pour the first to the second) [0 / 12, 12 / 18]
+scenario 2.1, [0 / 12, 0 / 18] -> [0 / 12, 18 / 18] -> (pour the second to the first) [12 / 12, 6 / 18] (Solution!)
+
+Summary:
+[0 / 12, 0 / 18] -> [0 / 12, 18 / 18] -> [12 / 12, 6 / 18]
